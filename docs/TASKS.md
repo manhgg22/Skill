@@ -17,6 +17,7 @@ _Chưa có_
 | Setup Claude Code Output System | 2026-06-10 | `/init-project` đã chạy |
 | Audit hệ thống setup | 2026-06-10 | 4 weak points, 3 cần fix thủ công |
 | Test task: tạo README.md | 2026-06-10 | Tạo README.md với section Development |
+| Fix audit issues: goal-loop + settings safety | 2026-06-10 | loop→goal-loop, PowerShell entries, cat restriction |
 
 ## Cấu trúc task
 

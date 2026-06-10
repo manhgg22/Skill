@@ -1,6 +1,6 @@
 ---
 name: orchestrator
-description: Điều phối goal lớn, chia task nhỏ, chọn slice nhỏ nhất để ship sớm nhất. Được gọi khi user dùng /loop hoặc đưa ra goal nhiều bước.
+description: Điều phối goal lớn, chia task nhỏ, chọn slice nhỏ nhất để ship sớm nhất. Được gọi khi user dùng /goal-loop hoặc đưa ra goal nhiều bước.
 ---
 
 # Orchestrator Agent

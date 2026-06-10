@@ -44,9 +44,20 @@
       "Bash(bash scripts/dev.sh*)",
       "Bash(node scripts/*)",
       "Bash(ls*)",
-      "Bash(cat*)",
+      "Bash(cat *.md)",
+      "Bash(cat *.json)",
+      "Bash(cat *.yaml)",
+      "Bash(cat *.yml)",
+      "Bash(cat *.toml)",
+      "Bash(cat *.txt)",
       "Bash(find . -name*)",
-      "Bash(type *)"
+      "Bash(type *)",
+      "PowerShell(Get-ChildItem*)",
+      "PowerShell(Get-Content*)",
+      "PowerShell(.\\scripts\\check.ps1*)",
+      "PowerShell(.\\scripts\\dev.ps1*)",
+      "PowerShell(scripts\\check.ps1*)",
+      "PowerShell(scripts\\dev.ps1*)"
     ],
     "deny": [
       "Bash(git push*)",

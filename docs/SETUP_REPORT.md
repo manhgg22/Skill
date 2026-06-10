@@ -58,7 +58,7 @@
 - `clarify.md` — `/clarify <yêu cầu>`
 - `fast-feature.md` — `/fast-feature <feature>`
 - `fix-bug.md` — `/fix-bug <lỗi>`
-- `loop.md` — `/loop <goal>`
+- `goal-loop.md` — `/goal-loop <goal>`
 - `review.md` — `/review`
 - `ship.md` — `/ship`
 - `checkpoint.md` — `/checkpoint`
@@ -140,7 +140,7 @@ Claude sẽ phân tích, tìm root cause, fix nhỏ nhất, chạy check.
 
 ### Goal lớn nhiều bước
 ```
-/loop Xây dựng tính năng authentication đầy đủ: register, login, logout, forgot password
+/goal-loop Xây dựng tính năng authentication đầy đủ: register, login, logout, forgot password
 ```
 Claude sẽ chia thành task nhỏ, làm từng bước, hỏi trước khi tiếp tục.
 

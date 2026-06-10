@@ -1,6 +1,6 @@
 ---
-name: loop
-description: Chia nhỏ goal lớn và thực hiện từng bước. Dùng: /loop <goal lớn>
+name: goal-loop
+description: Chia nhỏ goal lớn và thực hiện từng bước. Dùng: /goal-loop <goal lớn>
 argument-hint: "<goal lớn cần đạt được>"
 ---
 

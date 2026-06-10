@@ -287,10 +287,26 @@ Sau khi hoàn tất Fix 1–3:
 
 ## Tóm tắt fix theo priority
 
-| # | Fix | Priority | Tự làm được? |
-|---|-----|----------|-------------|
-| 1 | Đổi `/loop` → `/goal-loop` | 🔴 HIGH | ✅ Có thể tự sửa ngay |
-| 2 | Thêm PowerShell entries vào settings.json | 🟡 MED | ✅ Có thể tự sửa ngay |
-| 3 | Thu hẹp `Bash(cat*)` | 🟡 MED | ✅ Có thể tự sửa ngay |
-| 4 | Thêm Ruby support vào check scripts | 🟢 LOW | Chỉ cần nếu dùng Ruby |
-| 5 | Fix Gradle operator precedence | 🟢 LOW | Không urgent |
+| # | Fix | Priority | Status |
+|---|-----|----------|--------|
+| 1 | Đổi `/loop` → `/goal-loop` | 🔴 HIGH | ✅ DONE — 2026-06-10 |
+| 2 | Thêm PowerShell entries vào settings.json | 🟡 MED | ✅ DONE — 2026-06-10 |
+| 3 | Thu hẹp `Bash(cat*)` | 🟡 MED | ✅ DONE — 2026-06-10 |
+| 4 | Thêm Ruby support vào check scripts | 🟢 LOW | OPEN — chỉ cần nếu dùng Ruby |
+| 5 | Fix Gradle operator precedence | 🟢 LOW | OPEN — không urgent |
+
+## Audit Fix Log — 2026-06-10
+
+**Fix 1 — `/loop` → `/goal-loop`**
+- Tạo `.claude/commands/goal-loop.md` với `name: goal-loop`
+- Xóa `.claude/commands/loop.md`
+- Sửa `CLAUDE.md`: `/loop` → `/goal-loop`
+- Sửa `.claude/agents/orchestrator.md`: description updated
+- Sửa `docs/SETUP_REPORT.md`: 2 references updated
+- README.md đã dùng `/goal-loop` từ trước — không cần sửa
+
+**Fix 2 — Thêm PowerShell permissions**
+- Thêm 6 `PowerShell(...)` entries vào `.claude/settings.json` allow list
+
+**Fix 3 — Thu hẹp `Bash(cat*)`**
+- Thay `"Bash(cat*)"` bằng 6 entries giới hạn theo extension cụ thể

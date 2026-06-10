@@ -100,7 +100,7 @@ Claude sẽ tự kích hoạt skill phù hợp dựa trên ngữ cảnh:
 /clarify <yêu cầu>   — Biến yêu cầu mờ thành spec rõ
 /fast-feature <feat>  — Implement feature nhỏ nhất chạy được
 /fix-bug <mô tả lỗi> — Tìm root cause, fix nhỏ nhất
-/loop <goal lớn>      — Chia nhỏ goal, thực hiện từng bước
+/goal-loop <goal lớn> — Chia nhỏ goal, thực hiện từng bước
 /review               — Review git diff hiện tại
 /ship                 — Tổng kết output, check trước khi commit
 /checkpoint           — Ghi lại trạng thái hiện tại vào TASKS.md
