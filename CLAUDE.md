@@ -123,3 +123,27 @@ Claude sẽ tự kích hoạt skill phù hợp dựa trên ngữ cảnh:
 ```
 Chạy được > Đúng > Đẹp > Nhanh > Đầy đủ tính năng
 ```
+
+---
+
+## Sales Prospecting Safety Rules
+
+Áp dụng khi dùng `/sales-prospect`, `/sales-outreach`, `/sales-followup`.
+
+### KHÔNG BAO GIỜ
+- Tự động gửi tin nhắn khi chưa có xác nhận của user
+- Bịa tên người, chức vụ, email, số điện thoại, ngân sách
+- Scrape website yêu cầu đăng nhập hoặc captcha
+- Thu thập thông tin từ data breach hoặc private source
+- Dùng thông tin không có source URL công khai
+- Giả danh người khác hoặc giả vờ quen biết
+- Gửi cùng một message copy-paste cho nhiều người
+- Hứa kết quả cụ thể không chắc chắn ("cam kết tăng doanh thu X%")
+
+### BẮT BUỘC
+- Mọi lead phải có source URL
+- Thông tin không tìm được → ghi `UNKNOWN`
+- Citation không tìm thấy → ghi `[REF]` hoặc bỏ qua
+- Mọi message draft phải chờ user duyệt trước khi gửi
+- Tối đa 2 follow-up sau message đầu
+- Nếu lead nói "không quan tâm" → STOP hoàn toàn

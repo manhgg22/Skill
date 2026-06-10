@@ -122,6 +122,31 @@ Ghi lại task đang làm, done, backlog vào `docs/TASKS.md`.
 
 ---
 
+## Sales Prospecting Workflow
+
+Tìm khách hàng B2B tiềm năng, score, soạn outreach cá nhân hóa — user duyệt trước khi gửi.
+
+```
+/sales-prospect
+```
+
+```
+/sales-prospect tìm brand và agency cần TVC hoặc branded content, khu vực TP.HCM
+```
+
+Workflow tự động: Define ICP → Research Leads → Score A/B/C → Write Messages → Review → Output để bạn duyệt.
+
+| Command | Dùng khi |
+|---------|---------|
+| `/sales-prospect` | Chạy full workflow tìm lead mới |
+| `/sales-outreach` | Viết message cho 1 lead cụ thể |
+| `/sales-followup` | Xem follow-up đến hạn hôm nay |
+| `/sales-daily-report` | Tổng kết pipeline |
+
+**An toàn:** Không tự gửi. Không bịa data. Chỉ dùng nguồn public. Mọi message đều chờ bạn duyệt.
+
+---
+
 ## Tất cả Commands
 
 | Command | Dùng khi nào |

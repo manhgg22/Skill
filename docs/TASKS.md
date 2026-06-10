@@ -19,6 +19,7 @@ _Chưa có_
 | Test task: tạo README.md | 2026-06-10 | Tạo README.md với section Development |
 | Fix audit issues: goal-loop + settings safety | 2026-06-10 | loop→goal-loop, PowerShell entries, cat restriction |
 | Áp dụng Orchestrated Looping cho dev workflow | 2026-06-10 | Thêm Evaluation Agent, cập nhật Orchestrator với feedback loop |
+| Thêm Sales Prospecting & Outreach Workflow | 2026-06-10 | 19 files mới: 4 commands, 6 agents, 6 skills, 6 docs, 3 templates |
 
 ## Cấu trúc task
 
