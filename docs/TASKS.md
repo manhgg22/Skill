@@ -18,6 +18,7 @@ _Chưa có_
 | Audit hệ thống setup | 2026-06-10 | 4 weak points, 3 cần fix thủ công |
 | Test task: tạo README.md | 2026-06-10 | Tạo README.md với section Development |
 | Fix audit issues: goal-loop + settings safety | 2026-06-10 | loop→goal-loop, PowerShell entries, cat restriction |
+| Áp dụng Orchestrated Looping cho dev workflow | 2026-06-10 | Thêm Evaluation Agent, cập nhật Orchestrator với feedback loop |
 
 ## Cấu trúc task
 

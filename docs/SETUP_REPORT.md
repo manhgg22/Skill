@@ -35,7 +35,7 @@
 - `docs/OUTPUT_RULES.md` — Quy tắc format output
 - `docs/SETUP_REPORT.md` — File này
 
-### .claude/skills/ (7 skills)
+### .claude/skills/ (8 skills)
 - `project-onboarding/SKILL.md` — Đọc repo, điền context
 - `requirement-clarify/SKILL.md` — Biến yêu cầu mờ thành spec
 - `fast-feature/SKILL.md` — Implement nhỏ nhất chạy được
@@ -45,13 +45,14 @@
 - `ship-check/SKILL.md` — Tổng kết trước ship
 - `docs-update/SKILL.md` — Cập nhật docs
 
-### .claude/agents/ (6 agents)
-- `orchestrator.md` — Điều phối goal lớn
-- `planner.md` — Lập plan
-- `coder.md` — Viết code
-- `tester.md` — Chạy test
-- `reviewer.md` — Review diff
-- `debugger.md` — Phân tích lỗi
+### .claude/agents/ (7 agents — Orchestrated Looping)
+- `orchestrator.md` — Orchestrator Agent: breaks down goal, điều phối loop
+- `planner.md` — Research Agent: đọc codebase, lập plan
+- `coder.md` — Coding Agent: implement
+- `tester.md` — Testing Agent: chạy test/lint/build
+- `evaluation-agent.md` — Evaluation Agent: quality gate, quyết định PASS/LOOP/ESCALATE
+- `reviewer.md` — Hỗ trợ Evaluation Agent review diff
+- `debugger.md` — Hỗ trợ Coder phân tích lỗi
 
 ### .claude/commands/ (8 commands)
 - `init-project.md` — `/init-project`
